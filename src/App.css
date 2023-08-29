@@ -89,6 +89,11 @@ body {
   align-items: center;
 }
 
+.wallet-button{
+  position: relative;
+  left: 70px;
+}
+
 .buttons {
   width: 70%;
   display: flex;
@@ -96,6 +101,8 @@ body {
 }
 
 .btn {
+  /* position: relative; */
+  /* top: 100px; */
   height: 50px;
   padding: 20px;
   font-size: 13px;
@@ -112,11 +119,12 @@ body {
 }
 
 .console {
+  position: relative;
+  top: 300px;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Roboto Mono', monospace;
-  height: 250px;
   width: 500px;
-  padding: 40px;
+  padding: 40px 20px 50px 20px;
   border: 1px solid rgba(255, 255, 255, 0.116);
   background-color: #151515f5;
 }
@@ -151,3 +159,18 @@ body {
   }
 }
 
+/*Game Portion*/
+.col-lg-6{
+  background: linear-gradient(163deg,blue,black);
+  height: 500px;
+  border: solid white 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  color: white;
+  text-align: center;
+}
+#throw{
+  width: fit-content;
+  position: relative;
+  left: 47.3%;
+}
